@@ -3,9 +3,9 @@ venv/
 
 # PDF and Word files (input/output)
 input_PDF/
-output_Word/
+output_word/
 *.pdf
-*.docx
+/output_word/*.docx
 
 # Python cache
 __pycache__/

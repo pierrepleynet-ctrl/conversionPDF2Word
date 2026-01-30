@@ -5,8 +5,6 @@ Convertit tous les fichiers PDF du répertoire input_PDF/
 et génère les fichiers Word dans output_Word/
 """
 
-import os
-import sys
 from pathlib import Path
 from pdf2docx import Converter
 
@@ -32,7 +30,7 @@ def convert_pdf_to_docx(pdf_path: Path, output_dir: Path) -> bool:
 def main():
     script_dir = Path(__file__).parent
     input_dir = script_dir / "input_PDF"
-    output_dir = script_dir / "output_Word"
+    output_dir = script_dir / "output_word"
 
     # Créer les répertoires si nécessaire
     input_dir.mkdir(exist_ok=True)
