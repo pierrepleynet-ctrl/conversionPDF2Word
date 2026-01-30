@@ -1,0 +1,20 @@
+# Python virtual environment
+venv/
+
+# PDF and Word files (input/output)
+input_PDF/
+output_Word/
+*.pdf
+*.docx
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
